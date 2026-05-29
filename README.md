@@ -1,8 +1,13 @@
-## Discord Chat → AI Model
+# Discord Chat -> AI Model
 
 This project takes exported Discord conversations (for example, from [DiscordChatExporter](https://github.com/Tyrrrz/DiscordChatExporter)) and turns them into a dataset that can be used to train a small conversational AI model. The goal is to learn the *tone, style, and structure* of real chat messages so that the resulting model can generate responses that feel like the original chat participants.
 
 It works by processing raw Discord export JSON files, extracting meaningful message-reply relationships, and converting them into a structured dataset suitable for fine-tuning language models such as Mistral, Phi-2, or similar open models.
+
+> [!WARNING]
+> This project works with exported Discord chat data and is intended for educational and research purposes only.
+> Depending on how it is used, it may violate Discord’s Terms of Service or applicable data protection laws. You are responsible for ensuring you have permission to use any data processed by this tool, including consent from all individuals whose messages are included.
+> The authors take no responsibility for misuse of this software or any consequences resulting from its use.
 
 ---
 
