@@ -223,7 +223,7 @@ __marimo__/
 *.dll
 
 dataset.jsonl
-discord.json
+json/
 
 *.gguf
 
